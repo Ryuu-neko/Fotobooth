@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Andin</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #E6DFD5; /* Warna latar belakang sesuai gambar */
+            margin: 0;
+        }
+
+        h1 {
+            font-family: 'Patrick Hand', cursive; /* Font tulisan tangan mirip di gambar */
+            font-size: 36px;
+            color: #5A5A5A; /* Warna abu-abu lembut */
+            margin-bottom: 20px;
+        }
+
+        img {
+            max-width: 90%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        button {
+            font-family: 'Patrick Hand', cursive;
+            font-size: 20px;
+            background-color: #D9C2A9; /* Warna soft coklat krem */
+            color: #5A5A5A; /* Warna teks abu-abu */
+            border: none;
+            padding: 10px 20px;
+            margin-top: 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease-in-out;
+        }
+
+        button:hover {
+            background-color: #C4A98D; /* Warna lebih gelap saat hover */
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello Andin Syngg.. >< </h1>
+    <img src="gambar.png" alt="Profil Andin">
+    <button onclick="redirectToWebsite()">Take Foto</button>
+
+    <script>
+        function redirectToWebsite() {
+            window.location.href = "https://bubblybooth.vercel.app/camera"; // Ganti dengan link tujuan
+        }
+    </script>
+</body>
+</html>
